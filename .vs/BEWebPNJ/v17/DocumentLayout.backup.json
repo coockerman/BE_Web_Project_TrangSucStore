@@ -3,52 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\models\\collectionproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\models\\collectionproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\controllers\\collectionproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\controllers\\collectionproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\controllers\\admintitlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\controllers\\admintitlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\firebase_key.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\firebase_key.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\services\\evaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\services\\evaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\models\\evaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\models\\evaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\services\\evaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\services\\evaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\models\\admintitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\models\\admintitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\services\\admintitleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\services\\admintitleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\services\\collectionproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\services\\collectionproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\controllers\\evaluationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\controllers\\evaluationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\firebase_key.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|solutionrelative:bewebpnj\\firebase_key.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{355D113B-83DD-40A6-AAD7-927C0E264E84}|BEWebPNJ\\BEWebPNJ.csproj|c:\\users\\admin\\desktop\\bewebpnj\\bewebpnj\\bewebpnj.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -66,111 +86,203 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BEWebPNJ\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Models\\User.cs",
+              "RelativeToolTip": "BEWebPNJ\\Models\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wBEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T18:03:15.907Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "BEWebPNJ\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "BEWebPNJ\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwCoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T16:20:04.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CollectionProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Controllers\\CollectionProductController.cs",
+              "RelativeDocumentMoniker": "BEWebPNJ\\Controllers\\CollectionProductController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Controllers\\CollectionProductController.cs",
+              "RelativeToolTip": "BEWebPNJ\\Controllers\\CollectionProductController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:05:50.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AdminTitleController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Controllers\\AdminTitleController.cs",
+              "RelativeDocumentMoniker": "BEWebPNJ\\Controllers\\AdminTitleController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Controllers\\AdminTitleController.cs",
+              "RelativeToolTip": "BEWebPNJ\\Controllers\\AdminTitleController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:42:17.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CollectionProduct.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Models\\CollectionProduct.cs",
+              "RelativeDocumentMoniker": "BEWebPNJ\\Models\\CollectionProduct.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Models\\CollectionProduct.cs",
+              "RelativeToolTip": "BEWebPNJ\\Models\\CollectionProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:05:27.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EvaluationService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Services\\EvaluationService.cs",
+              "RelativeDocumentMoniker": "BEWebPNJ\\Services\\EvaluationService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Services\\EvaluationService.cs",
+              "RelativeToolTip": "BEWebPNJ\\Services\\EvaluationService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwCQAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:34:08.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "BEWebPNJ\\Services\\ProductService.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Services\\ProductService.cs",
               "RelativeToolTip": "BEWebPNJ\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvy0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T18:31:29.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\appsettings.json",
-              "RelativeDocumentMoniker": "BEWebPNJ\\appsettings.json",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\appsettings.json",
-              "RelativeToolTip": "BEWebPNJ\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-16T18:09:43.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "BEWebPNJ\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Controllers\\UserController.cs",
-              "RelativeToolTip": "BEWebPNJ\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwDwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T18:04:17.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "BEWebPNJ\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Services\\UserService.cs",
-              "RelativeToolTip": "BEWebPNJ\\Services\\UserService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBkAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T18:03:52.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Models\\User.cs",
-              "RelativeDocumentMoniker": "BEWebPNJ\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Models\\User.cs",
-              "RelativeToolTip": "BEWebPNJ\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T18:03:15.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Evaluation.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Models\\Evaluation.cs",
               "RelativeDocumentMoniker": "BEWebPNJ\\Models\\Evaluation.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Models\\Evaluation.cs",
               "RelativeToolTip": "BEWebPNJ\\Models\\Evaluation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T17:33:12.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "BEWebPNJ\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Models\\Product.cs",
+              "RelativeToolTip": "BEWebPNJ\\Models\\Product.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBUAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T16:18:39.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminTitle.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Models\\AdminTitle.cs",
+              "RelativeDocumentMoniker": "BEWebPNJ\\Models\\AdminTitle.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Models\\AdminTitle.cs",
+              "RelativeToolTip": "BEWebPNJ\\Models\\AdminTitle.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:42:03.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminTitleService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Services\\AdminTitleService.cs",
+              "RelativeDocumentMoniker": "BEWebPNJ\\Services\\AdminTitleService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Services\\AdminTitleService.cs",
+              "RelativeToolTip": "BEWebPNJ\\Services\\AdminTitleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:42:35.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CollectionProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Services\\CollectionProductService.cs",
+              "RelativeDocumentMoniker": "BEWebPNJ\\Services\\CollectionProductService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Services\\CollectionProductService.cs",
+              "RelativeToolTip": "BEWebPNJ\\Services\\CollectionProductService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:05:40.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Program.cs",
               "RelativeDocumentMoniker": "BEWebPNJ\\Program.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Program.cs",
               "RelativeToolTip": "BEWebPNJ\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T07:59:57.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "firebase_key.json",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\firebase_key.json",
-              "RelativeDocumentMoniker": "BEWebPNJ\\firebase_key.json",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\firebase_key.json",
-              "RelativeToolTip": "BEWebPNJ\\firebase_key.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-16T08:11:03.742Z",
+              "DocumentIndex": 13,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BEWebPNJ\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Services\\UserService.cs",
+              "RelativeToolTip": "BEWebPNJ\\Services\\UserService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wA4AAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T18:03:52.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BEWebPNJ\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BEWebPNJ\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T18:04:17.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "EvaluationController.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Controllers\\EvaluationController.cs",
               "RelativeDocumentMoniker": "BEWebPNJ\\Controllers\\EvaluationController.cs",
@@ -183,46 +295,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "BEWebPNJ\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Models\\Product.cs",
-              "RelativeToolTip": "BEWebPNJ\\Models\\Product.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAywBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T16:18:39.204Z",
-              "EditorCaption": ""
+              "DocumentIndex": 16,
+              "Title": "firebase_key.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\firebase_key.json",
+              "RelativeDocumentMoniker": "BEWebPNJ\\firebase_key.json",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\firebase_key.json",
+              "RelativeToolTip": "BEWebPNJ\\firebase_key.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-16T08:11:03.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "BEWebPNJ\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "BEWebPNJ\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T16:20:04.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EvaluationService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Services\\EvaluationService.cs",
-              "RelativeDocumentMoniker": "BEWebPNJ\\Services\\EvaluationService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\Services\\EvaluationService.cs",
-              "RelativeToolTip": "BEWebPNJ\\Services\\EvaluationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T17:34:08.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "BEWebPNJ.csproj",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\BEWebPNJ.csproj",
               "RelativeDocumentMoniker": "BEWebPNJ\\BEWebPNJ.csproj",
@@ -230,8 +315,7 @@
               "RelativeToolTip": "BEWebPNJ\\BEWebPNJ.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-16T08:31:23.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T08:31:23.409Z"
             }
           ]
         }

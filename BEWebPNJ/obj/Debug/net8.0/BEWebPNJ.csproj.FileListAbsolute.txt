@@ -67,3 +67,4 @@ C:\Users\ADMIN\Desktop\BEWebPNJ\BEWebPNJ\obj\Debug\net8.0\refint\BEWebPNJ.dll
 C:\Users\ADMIN\Desktop\BEWebPNJ\BEWebPNJ\obj\Debug\net8.0\BEWebPNJ.pdb
 C:\Users\ADMIN\Desktop\BEWebPNJ\BEWebPNJ\obj\Debug\net8.0\BEWebPNJ.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\BEWebPNJ\BEWebPNJ\obj\Debug\net8.0\ref\BEWebPNJ.dll
+C:\Users\ADMIN\Desktop\BEWebPNJ\BEWebPNJ\obj\Debug\net8.0\BEWebPNJ.sourcelink.json
