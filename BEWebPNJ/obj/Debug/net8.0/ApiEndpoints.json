@@ -318,6 +318,32 @@
   },
   {
     "ContainingType": "BEWebPNJ.Controllers.ProductController",
+    "Method": "GetProductsByType",
+    "RelativePath": "api/products/by-type/{type}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BEWebPNJ.Models.Product, BEWebPNJ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.ProductController",
     "Method": "SetProduct",
     "RelativePath": "api/products/create-or-update",
     "HttpMethod": "POST",
