@@ -1162,6 +1162,10 @@
           "karat": {
             "type": "string",
             "nullable": true
+          },
+          "show": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
