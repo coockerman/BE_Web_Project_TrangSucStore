@@ -1036,13 +1036,6 @@
           "acronym": {
             "type": "string",
             "nullable": true
-          },
-          "advertisement": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1169,9 +1162,6 @@
           "karat": {
             "type": "string",
             "nullable": true
-          },
-          "show": {
-            "type": "boolean"
           }
         },
         "additionalProperties": false
