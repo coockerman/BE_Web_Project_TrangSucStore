@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\buildMultiTargeting\BEWebPNJ.props" />
+  <Import Project="../buildMultiTargeting/BEWebPNJ.props" />
 </Project>
