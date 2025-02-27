@@ -68,7 +68,6 @@ C:\Users\ADMIN\Desktop\BEWebPNJ\BEWebPNJ\obj\Debug\net8.0\BEWebPNJ.genruntimecon
 C:\Users\ADMIN\Desktop\BEWebPNJ\BEWebPNJ\obj\Debug\net8.0\ref\BEWebPNJ.dll
 C:\Users\ADMIN\Desktop\BEWebPNJ\BEWebPNJ\obj\Debug\net8.0\BEWebPNJ.sourcelink.json
 <<<<<<< HEAD
-C:\Users\ADMIN\Desktop\BEWebPNJ\BEWebPNJ\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 =======
 C:\Users\thanhdat\Desktop\BE_WebPNJ\BEWebPNJ\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\thanhdat\Desktop\BE_WebPNJ\BEWebPNJ\bin\Debug\net8.0\appsettings.json
@@ -137,3 +136,4 @@ C:\Users\thanhdat\Desktop\BE_WebPNJ\BEWebPNJ\obj\Debug\net8.0\BEWebPNJ.pdb
 C:\Users\thanhdat\Desktop\BE_WebPNJ\BEWebPNJ\obj\Debug\net8.0\BEWebPNJ.genruntimeconfig.cache
 C:\Users\thanhdat\Desktop\BE_WebPNJ\BEWebPNJ\obj\Debug\net8.0\ref\BEWebPNJ.dll
 >>>>>>> developer/hien/OrderChat
+C:\Users\ADMIN\Desktop\BEWebPNJ\BEWebPNJ\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
