@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BEWebPNJ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd39a2e89c16126442d00d21144cc10ce9219927")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+527506aaa9d1bcb467d3c6100a91f6be13b08be0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BEWebPNJ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BEWebPNJ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

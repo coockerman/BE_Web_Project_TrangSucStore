@@ -1653,15 +1653,7 @@
             "type": "string",
             "nullable": true
           },
-          "phone1": {
-            "type": "string",
-            "nullable": true
-          },
-          "nameShop": {
-            "type": "string",
-            "nullable": true
-          },
-          "phone2": {
+          "acronym": {
             "type": "string",
             "nullable": true
           },
@@ -1669,7 +1661,27 @@
             "type": "string",
             "nullable": true
           },
-          "acronym": {
+          "business": {
+            "type": "string",
+            "nullable": true
+          },
+          "buy": {
+            "type": "string",
+            "nullable": true
+          },
+          "complaint": {
+            "type": "string",
+            "nullable": true
+          },
+          "fax": {
+            "type": "string",
+            "nullable": true
+          },
+          "nameShop": {
+            "type": "string",
+            "nullable": true
+          },
+          "numberPhone": {
             "type": "string",
             "nullable": true
           }
@@ -1841,7 +1853,7 @@
           },
           "timeOrder": {
             "type": "string",
-            "nullable": true
+            "format": "date-time"
           }
         },
         "additionalProperties": false
@@ -1909,6 +1921,20 @@
         },
         "additionalProperties": false
       },
+      "ShoppingCart": {
+        "type": "object",
+        "properties": {
+          "idProduct": {
+            "type": "string",
+            "nullable": true
+          },
+          "stock": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "SizePrice": {
         "type": "object",
         "properties": {
@@ -1958,7 +1984,7 @@
           "shoppingCart": {
             "type": "object",
             "additionalProperties": {
-              "type": "string"
+              "$ref": "#/components/schemas/ShoppingCart"
             },
             "nullable": true
           },
