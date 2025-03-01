@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\BEWebPNJ.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\mr.dao\\BE_PNJ\\BE_Web_Project_TrangSucStore\\BEWebPNJ\\BEWebPNJ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\BEWebPNJ.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\mr.dao\\BE_PNJ\\BE_Web_Project_TrangSucStore\\BEWebPNJ\\BEWebPNJ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\BEWebPNJ.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\mr.dao\\BE_PNJ\\BE_Web_Project_TrangSucStore\\BEWebPNJ\\BEWebPNJ.csproj",
         "projectName": "BEWebPNJ",
-        "projectPath": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\BEWebPNJ.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\mr.dao\\BE_PNJ\\BE_Web_Project_TrangSucStore\\BEWebPNJ\\BEWebPNJ.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\mr.dao\\BE_PNJ\\BE_Web_Project_TrangSucStore\\BEWebPNJ\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -86,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.25057.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

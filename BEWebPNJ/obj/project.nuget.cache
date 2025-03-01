@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MnvLqElQnFk=",
+  "dgSpecHash": "5iN4r04YGPM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\Desktop\\BEWebPNJ\\BEWebPNJ\\BEWebPNJ.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\Desktop\\mr.dao\\BE_PNJ\\BE_Web_Project_TrangSucStore\\BEWebPNJ\\BEWebPNJ.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\firebaseadmin\\3.1.0\\firebaseadmin.3.1.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\firebaseadminauthentication.dependencyinjection\\1.1.0\\firebaseadminauthentication.dependencyinjection.1.1.0.nupkg.sha512",
