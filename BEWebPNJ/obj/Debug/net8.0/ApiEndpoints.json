@@ -941,6 +941,131 @@
     ]
   },
   {
+    "ContainingType": "BEWebPNJ.Controllers.AddAddressController",
+    "Method": "GetUserAddresses",
+    "RelativePath": "api/users/{userId}/addAddress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BEWebPNJ.Models.AddAddress, BEWebPNJ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.AddAddressController",
+    "Method": "AddAddress",
+    "RelativePath": "api/users/{userId}/addAddress",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "address",
+        "Type": "BEWebPNJ.Models.AddAddress",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.AddAddressController",
+    "Method": "GetAddressById",
+    "RelativePath": "api/users/{userId}/addAddress/{addressId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "addressId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BEWebPNJ.Models.AddAddress",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.AddAddressController",
+    "Method": "UpdateAddress",
+    "RelativePath": "api/users/{userId}/addAddress/{addressId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "addressId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "address",
+        "Type": "BEWebPNJ.Models.AddAddress",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.AddAddressController",
+    "Method": "DeleteAddress",
+    "RelativePath": "api/users/{userId}/addAddress/{addressId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "addressId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BEWebPNJ.Controllers.PurchasedController",
     "Method": "GetPurchasedProducts",
     "RelativePath": "api/users/{userId}/purchased",
@@ -1085,6 +1210,27 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.UserController",
+    "Method": "UpdateUserInfo",
+    "RelativePath": "api/users/update-info/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "userInfo",
+        "Type": "BEWebPNJ.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "BEWebPNJ.Controllers.UserController",
