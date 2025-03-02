@@ -2171,28 +2171,25 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "object",
-                  "additionalProperties": {
-                    "type": "object",
-                    "additionalProperties": { }
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ShoppingCart"
                   }
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "object",
-                  "additionalProperties": {
-                    "type": "object",
-                    "additionalProperties": { }
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ShoppingCart"
                   }
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "object",
-                  "additionalProperties": {
-                    "type": "object",
-                    "additionalProperties": { }
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ShoppingCart"
                   }
                 }
               }
@@ -2201,8 +2198,8 @@
         }
       }
     },
-    "/api/users/{userId}/shopping-cart/add/{productId}": {
-      "post": {
+    "/api/users/{userId}/shopping-cart/{shoppingCartId}": {
+      "get": {
         "tags": [
           "ShoppingCart"
         ],
@@ -2216,7 +2213,46 @@
             }
           },
           {
-            "name": "productId",
+            "name": "shoppingCartId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ShoppingCart"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ShoppingCart"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ShoppingCart"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/{userId}/shopping-cart/add": {
+      "post": {
+        "tags": [
+          "ShoppingCart"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
             "in": "path",
             "required": true,
             "schema": {
@@ -2228,20 +2264,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "object",
-                "additionalProperties": { }
+                "$ref": "#/components/schemas/ShoppingCart"
               }
             },
             "text/json": {
               "schema": {
-                "type": "object",
-                "additionalProperties": { }
+                "$ref": "#/components/schemas/ShoppingCart"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "object",
-                "additionalProperties": { }
+                "$ref": "#/components/schemas/ShoppingCart"
               }
             }
           }
@@ -2253,7 +2286,56 @@
         }
       }
     },
-    "/api/users/{userId}/shopping-cart/remove/{productId}": {
+    "/api/users/{userId}/shopping-cart/update/{shoppingCartId}": {
+      "put": {
+        "tags": [
+          "ShoppingCart"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "shoppingCartId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ShoppingCart"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ShoppingCart"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ShoppingCart"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/users/{userId}/shopping-cart/remove/{shoppingCartId}": {
       "delete": {
         "tags": [
           "ShoppingCart"
@@ -2268,7 +2350,7 @@
             }
           },
           {
-            "name": "productId",
+            "name": "shoppingCartId",
             "in": "path",
             "required": true,
             "schema": {
@@ -2830,11 +2912,19 @@
       "ShoppingCart": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
           "idProduct": {
             "type": "string",
             "nullable": true
           },
-          "stock": {
+          "size": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "price": {
             "type": "integer",
             "format": "int32"
           }
@@ -2866,13 +2956,6 @@
             "type": "string",
             "nullable": true
           },
-          "addAddress": {
-            "type": "object",
-            "additionalProperties": {
-              "$ref": "#/components/schemas/AddAddress"
-            },
-            "nullable": true
-          },
           "favouriteCart": {
             "type": "array",
             "items": {
@@ -2884,13 +2967,6 @@
             "type": "array",
             "items": {
               "type": "string"
-            },
-            "nullable": true
-          },
-          "shoppingCart": {
-            "type": "object",
-            "additionalProperties": {
-              "$ref": "#/components/schemas/ShoppingCart"
             },
             "nullable": true
           },

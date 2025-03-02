@@ -1230,7 +1230,7 @@
   },
   {
     "ContainingType": "BEWebPNJ.Controllers.ShoppingCartController",
-    "Method": "GetShoppingCart",
+    "Method": "GetUserShoppingCart",
     "RelativePath": "api/users/{userId}/shopping-cart",
     "HttpMethod": "GET",
     "IsController": true,
@@ -1244,7 +1244,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Collections.Generic.List\u00601[[BEWebPNJ.Models.ShoppingCart, BEWebPNJ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1256,8 +1256,39 @@
   },
   {
     "ContainingType": "BEWebPNJ.Controllers.ShoppingCartController",
-    "Method": "AddToShoppingCart",
-    "RelativePath": "api/users/{userId}/shopping-cart/add/{productId}",
+    "Method": "GetShoppingCartById",
+    "RelativePath": "api/users/{userId}/shopping-cart/{shoppingCartId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "shoppingCartId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BEWebPNJ.Models.ShoppingCart",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.ShoppingCartController",
+    "Method": "AddShoppingCart",
+    "RelativePath": "api/users/{userId}/shopping-cart/add",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1268,13 +1299,8 @@
         "IsRequired": true
       },
       {
-        "Name": "productId",
-        "Type": "System.String",
-        "IsRequired": true
-      },
-      {
-        "Name": "productData",
-        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "shoppingCart",
+        "Type": "BEWebPNJ.Models.ShoppingCart",
         "IsRequired": true
       }
     ],
@@ -1282,8 +1308,8 @@
   },
   {
     "ContainingType": "BEWebPNJ.Controllers.ShoppingCartController",
-    "Method": "RemoveFromShoppingCart",
-    "RelativePath": "api/users/{userId}/shopping-cart/remove/{productId}",
+    "Method": "DeleteAddress",
+    "RelativePath": "api/users/{userId}/shopping-cart/remove/{shoppingCartId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1294,8 +1320,34 @@
         "IsRequired": true
       },
       {
-        "Name": "productId",
+        "Name": "shoppingCartId",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.ShoppingCartController",
+    "Method": "UpdateShoppingCart",
+    "RelativePath": "api/users/{userId}/shopping-cart/update/{shoppingCartId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "shoppingCartId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "shoppingCart",
+        "Type": "BEWebPNJ.Models.ShoppingCart",
         "IsRequired": true
       }
     ],
