@@ -498,6 +498,27 @@
   },
   {
     "ContainingType": "BEWebPNJ.Controllers.CouponController",
+    "Method": "DecreaseCouponStock",
+    "RelativePath": "api/coupons/decrease-stock/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "amount",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.CouponController",
     "Method": "DeleteCoupon",
     "RelativePath": "api/coupons/delete/{id}",
     "HttpMethod": "DELETE",
