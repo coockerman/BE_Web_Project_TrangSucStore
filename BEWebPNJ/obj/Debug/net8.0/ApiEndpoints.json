@@ -706,6 +706,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BEWebPNJ.Controllers.MoMoController",
+    "Method": "CreatePaymentUrl",
+    "RelativePath": "api/momo/payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "BEWebPNJ.Models.Order",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BEWebPNJ.Controllers.OrderController",
     "Method": "GetAllOrders",
     "RelativePath": "api/orders/all",
@@ -724,6 +740,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.OrderController",
+    "Method": "PaymentCallback",
+    "RelativePath": "api/orders/callback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "response",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "BEWebPNJ.Controllers.OrderController",
@@ -785,6 +817,32 @@
   },
   {
     "ContainingType": "BEWebPNJ.Controllers.OrderController",
+    "Method": "CreatePaymentUrl",
+    "RelativePath": "api/orders/payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "BEWebPNJ.Models.Order",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.OrderController",
+    "Method": "PaymentCallback",
+    "RelativePath": "api/orders/payment/callback",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.OrderController",
     "Method": "UpdateOrderStatus",
     "RelativePath": "api/orders/update-status/{orderId}",
     "HttpMethod": "PATCH",
@@ -799,6 +857,22 @@
       {
         "Name": "newStatus",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PayPalController",
+    "Method": "CreatePayment",
+    "RelativePath": "api/paypal/create-payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "BEWebPNJ.Models.Order",
         "IsRequired": true
       }
     ],
@@ -1175,6 +1249,53 @@
       },
       {
         "Name": "addressId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.ListPaymentUserController",
+    "Method": "GetListPaymentUser",
+    "RelativePath": "api/users/{userId}/listOrderId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.ListPaymentUserController",
+    "Method": "AddOrderId",
+    "RelativePath": "api/users/{userId}/listOrderId/add/{orderId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "orderId",
         "Type": "System.String",
         "IsRequired": true
       }
