@@ -1809,7 +1809,7 @@
     "/api/paypal/create-payment": {
       "post": {
         "tags": [
-          "PayPal"
+          "Paypal"
         ],
         "requestBody": {
           "content": {
@@ -1830,6 +1830,46 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/paypal/payment-success": {
+      "get": {
+        "tags": [
+          "Paypal"
+        ],
+        "parameters": [
+          {
+            "name": "paymentId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "PayerID",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/paypal/payment-cancel": {
+      "get": {
+        "tags": [
+          "Paypal"
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -2587,7 +2627,7 @@
         }
       }
     },
-    "/api/users/{userId}/shopping-cart/remove/{shoppingCartId}": {
+    "/api/users/{userId}/shopping-cart/remove/{shoppingCartId}/{size}": {
       "delete": {
         "tags": [
           "ShoppingCart"
@@ -2607,6 +2647,15 @@
             "required": true,
             "schema": {
               "type": "string"
+            }
+          },
+          {
+            "name": "size",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
@@ -3064,7 +3113,7 @@
             "type": "string",
             "nullable": true
           },
-          "productItem": {
+          "productItems": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/productItem"
@@ -3076,6 +3125,10 @@
             "nullable": true
           },
           "typePayment": {
+            "type": "string",
+            "nullable": true
+          },
+          "paymentId": {
             "type": "string",
             "nullable": true
           },

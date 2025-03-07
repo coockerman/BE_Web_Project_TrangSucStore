@@ -12,6 +12,7 @@
           "FirebaseAdminAuthentication.DependencyInjection": "1.1.0",
           "Google.Cloud.Firestore": "3.9.0",
           "PayPal": "1.9.1",
+          "RestSharp": "112.1.0",
           "Swashbuckle.AspNetCore": "6.6.2",
           "System.Configuration.ConfigurationManager": "9.0.2"
         },
@@ -475,6 +476,14 @@
           "lib/net451/PayPal.dll": {
             "assemblyVersion": "1.9.1.0",
             "fileVersion": "1.9.1.0"
+          }
+        }
+      },
+      "RestSharp/112.1.0": {
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "assemblyVersion": "112.1.0.0",
+            "fileVersion": "112.1.0.0"
           }
         }
       },
@@ -1045,6 +1054,13 @@
       "sha512": "sha512-b3vq6Lc9CwSooCX2tsZ02zb7E/K/cA6EILCoMynue+ZeVuitJNqt0YwxPnp7uN0Pccob02oDlpAjRLH+GRCRxA==",
       "path": "paypal/1.9.1",
       "hashPath": "paypal.1.9.1.nupkg.sha512"
+    },
+    "RestSharp/112.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bOUGNZqhhv/QeCXHTKEUil846yBjwWXpzPKjO67kFvaAOoF361z7jLY5BMnuZ6WD2WQRA750sNMcK7MSPCQ5Mg==",
+      "path": "restsharp/112.1.0",
+      "hashPath": "restsharp.112.1.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.6.2": {
       "type": "package",

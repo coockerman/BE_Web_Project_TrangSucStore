@@ -863,7 +863,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PayPalController",
+    "ContainingType": "BEWebPNJ.Controllers.PaypalController",
     "Method": "CreatePayment",
     "RelativePath": "api/paypal/create-payment",
     "HttpMethod": "POST",
@@ -874,6 +874,37 @@
         "Name": "order",
         "Type": "BEWebPNJ.Models.Order",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.PaypalController",
+    "Method": "PaymentCancel",
+    "RelativePath": "api/paypal/payment-cancel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.PaypalController",
+    "Method": "PaymentSuccess",
+    "RelativePath": "api/paypal/payment-success",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PayerID",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -1450,8 +1481,8 @@
   },
   {
     "ContainingType": "BEWebPNJ.Controllers.ShoppingCartController",
-    "Method": "DeleteAddress",
-    "RelativePath": "api/users/{userId}/shopping-cart/remove/{shoppingCartId}",
+    "Method": "DeleteShoppingCart",
+    "RelativePath": "api/users/{userId}/shopping-cart/remove/{shoppingCartId}/{size}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1464,6 +1495,11 @@
       {
         "Name": "shoppingCartId",
         "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
