@@ -368,7 +368,7 @@
   {
     "ContainingType": "BEWebPNJ.Controllers.CommentController",
     "Method": "GetAllComments",
-    "RelativePath": "api/Comment",
+    "RelativePath": "api/comment",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -378,7 +378,7 @@
   {
     "ContainingType": "BEWebPNJ.Controllers.CommentController",
     "Method": "SetComment",
-    "RelativePath": "api/Comment",
+    "RelativePath": "api/comment",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -394,7 +394,7 @@
   {
     "ContainingType": "BEWebPNJ.Controllers.CommentController",
     "Method": "GetCommentById",
-    "RelativePath": "api/Comment/{id}",
+    "RelativePath": "api/comment/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -410,7 +410,7 @@
   {
     "ContainingType": "BEWebPNJ.Controllers.CommentController",
     "Method": "UpdateComment",
-    "RelativePath": "api/Comment/{id}",
+    "RelativePath": "api/comment/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -421,8 +421,8 @@
         "IsRequired": true
       },
       {
-        "Name": "updates",
-        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "updateData",
+        "Type": "BEWebPNJ.Controllers.UpdateCommentDto",
         "IsRequired": true
       }
     ],
@@ -431,7 +431,7 @@
   {
     "ContainingType": "BEWebPNJ.Controllers.CommentController",
     "Method": "DeleteComment",
-    "RelativePath": "api/Comment/{id}",
+    "RelativePath": "api/comment/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -447,7 +447,7 @@
   {
     "ContainingType": "BEWebPNJ.Controllers.CommentController",
     "Method": "GetCommentsByProductId",
-    "RelativePath": "api/Comment/product/{productId}",
+    "RelativePath": "api/comment/product/{productId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -863,6 +863,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BEWebPNJ.Controllers.OrderController",
+    "Method": "GetOrdersByUserId",
+    "RelativePath": "api/orders/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BEWebPNJ.Models.Order, BEWebPNJ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "BEWebPNJ.Controllers.PaypalController",
     "Method": "CreatePayment",
     "RelativePath": "api/paypal/create-payment",
@@ -905,6 +931,27 @@
         "Name": "PayerID",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.ProductController",
+    "Method": "AddCommentToProduct",
+    "RelativePath": "api/products/{productId}/add-comment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "commentId",
+        "Type": "System.String",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

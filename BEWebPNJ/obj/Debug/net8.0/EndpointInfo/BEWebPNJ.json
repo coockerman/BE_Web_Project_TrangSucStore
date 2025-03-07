@@ -853,7 +853,7 @@
         }
       }
     },
-    "/api/Comment": {
+    "/api/comment": {
       "get": {
         "tags": [
           "Comment"
@@ -894,7 +894,7 @@
         }
       }
     },
-    "/api/Comment/{id}": {
+    "/api/comment/{id}": {
       "get": {
         "tags": [
           "Comment"
@@ -933,20 +933,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "object",
-                "additionalProperties": { }
+                "$ref": "#/components/schemas/UpdateCommentDto"
               }
             },
             "text/json": {
               "schema": {
-                "type": "object",
-                "additionalProperties": { }
+                "$ref": "#/components/schemas/UpdateCommentDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "object",
-                "additionalProperties": { }
+                "$ref": "#/components/schemas/UpdateCommentDto"
               }
             }
           }
@@ -978,7 +975,7 @@
         }
       }
     },
-    "/api/Comment/product/{productId}": {
+    "/api/comment/product/{productId}": {
       "get": {
         "tags": [
           "Comment"
@@ -1716,6 +1713,54 @@
         }
       }
     },
+    "/api/orders/user/{userId}": {
+      "get": {
+        "tags": [
+          "Order"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Order"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Order"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Order"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/orders/delete/{orderId}": {
       "delete": {
         "tags": [
@@ -2100,6 +2145,47 @@
       }
     },
     "/api/products/{productId}/add-evaluation": {
+      "post": {
+        "tags": [
+          "Product"
+        ],
+        "parameters": [
+          {
+            "name": "productId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/products/{productId}/add-comment": {
       "post": {
         "tags": [
           "Product"
@@ -3028,6 +3114,10 @@
             "type": "string",
             "nullable": true
           },
+          "nameUser": {
+            "type": "string",
+            "nullable": true
+          },
           "idUser": {
             "type": "string",
             "nullable": true
@@ -3128,7 +3218,27 @@
             "type": "string",
             "nullable": true
           },
+          "couponId": {
+            "type": "string",
+            "nullable": true
+          },
           "paymentId": {
+            "type": "string",
+            "nullable": true
+          },
+          "nameUserGet": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailUserGet": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneUserGet": {
+            "type": "string",
+            "nullable": true
+          },
+          "addressUserGet": {
             "type": "string",
             "nullable": true
           },
@@ -3174,6 +3284,13 @@
             "nullable": true
           },
           "listEvaluation": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "listComments": {
             "type": "array",
             "items": {
               "type": "string"
@@ -3250,6 +3367,19 @@
           "stock": {
             "type": "integer",
             "format": "int64"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateCommentDto": {
+        "type": "object",
+        "properties": {
+          "content": {
+            "type": "string",
+            "nullable": true
+          },
+          "hasFix": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
