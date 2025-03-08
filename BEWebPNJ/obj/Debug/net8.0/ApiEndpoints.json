@@ -215,6 +215,16 @@
   },
   {
     "ContainingType": "BEWebPNJ.Controllers.ChatController",
+    "Method": "GetAllChatMessages",
+    "RelativePath": "api/chat/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.ChatController",
     "Method": "GetChatMessageById",
     "RelativePath": "api/chat/question/{id}",
     "HttpMethod": "GET",
@@ -1109,6 +1119,32 @@
   },
   {
     "ContainingType": "BEWebPNJ.Controllers.ProductController",
+    "Method": "SearchProductsByName",
+    "RelativePath": "api/products/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BEWebPNJ.Models.Product, BEWebPNJ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.ProductController",
     "Method": "UpdateProduct",
     "RelativePath": "api/products/update/{id}",
     "HttpMethod": "PATCH",
@@ -1597,7 +1633,7 @@
   {
     "ContainingType": "BEWebPNJ.Controllers.ShoppingCartController",
     "Method": "DeleteShoppingCart",
-    "RelativePath": "api/users/{userId}/shopping-cart/remove/{shoppingCartId}/{size}",
+    "RelativePath": "api/users/{userId}/shopping-cart/remove/{shoppingCartId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1610,11 +1646,6 @@
       {
         "Name": "shoppingCartId",
         "Type": "System.String",
-        "IsRequired": true
-      },
-      {
-        "Name": "size",
-        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

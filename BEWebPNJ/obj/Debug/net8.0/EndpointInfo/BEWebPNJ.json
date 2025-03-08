@@ -584,6 +584,18 @@
         }
       }
     },
+    "/api/chat/all": {
+      "get": {
+        "tags": [
+          "Chat"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/chat/top/{topN}": {
       "get": {
         "tags": [
@@ -2400,6 +2412,53 @@
         }
       }
     },
+    "/api/products/search": {
+      "get": {
+        "tags": [
+          "Product"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Product"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Product"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Product"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/users/{userId}/purchased": {
       "get": {
         "tags": [
@@ -2821,7 +2880,7 @@
         }
       }
     },
-    "/api/users/{userId}/shopping-cart/remove/{shoppingCartId}/{size}": {
+    "/api/users/{userId}/shopping-cart/remove/{shoppingCartId}": {
       "delete": {
         "tags": [
           "ShoppingCart"
@@ -2841,15 +2900,6 @@
             "required": true,
             "schema": {
               "type": "string"
-            }
-          },
-          {
-            "name": "size",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
             }
           }
         ],
