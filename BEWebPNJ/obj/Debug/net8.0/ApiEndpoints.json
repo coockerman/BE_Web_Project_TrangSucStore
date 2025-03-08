@@ -368,7 +368,7 @@
   {
     "ContainingType": "BEWebPNJ.Controllers.CommentController",
     "Method": "GetAllComments",
-    "RelativePath": "api/Comment",
+    "RelativePath": "api/comment",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -378,7 +378,7 @@
   {
     "ContainingType": "BEWebPNJ.Controllers.CommentController",
     "Method": "SetComment",
-    "RelativePath": "api/Comment",
+    "RelativePath": "api/comment",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -394,7 +394,7 @@
   {
     "ContainingType": "BEWebPNJ.Controllers.CommentController",
     "Method": "GetCommentById",
-    "RelativePath": "api/Comment/{id}",
+    "RelativePath": "api/comment/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -410,7 +410,7 @@
   {
     "ContainingType": "BEWebPNJ.Controllers.CommentController",
     "Method": "UpdateComment",
-    "RelativePath": "api/Comment/{id}",
+    "RelativePath": "api/comment/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -421,8 +421,8 @@
         "IsRequired": true
       },
       {
-        "Name": "updates",
-        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "updateData",
+        "Type": "BEWebPNJ.Controllers.UpdateCommentDto",
         "IsRequired": true
       }
     ],
@@ -431,7 +431,7 @@
   {
     "ContainingType": "BEWebPNJ.Controllers.CommentController",
     "Method": "DeleteComment",
-    "RelativePath": "api/Comment/{id}",
+    "RelativePath": "api/comment/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -447,7 +447,7 @@
   {
     "ContainingType": "BEWebPNJ.Controllers.CommentController",
     "Method": "GetCommentsByProductId",
-    "RelativePath": "api/Comment/product/{productId}",
+    "RelativePath": "api/comment/product/{productId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -491,6 +491,27 @@
       {
         "Name": "coupon",
         "Type": "BEWebPNJ.Models.Coupon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.CouponController",
+    "Method": "DecreaseCouponStock",
+    "RelativePath": "api/coupons/decrease-stock/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "amount",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -685,6 +706,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BEWebPNJ.Controllers.MoMoController",
+    "Method": "CreatePaymentUrl",
+    "RelativePath": "api/momo/payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "BEWebPNJ.Models.Order",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BEWebPNJ.Controllers.OrderController",
     "Method": "GetAllOrders",
     "RelativePath": "api/orders/all",
@@ -703,6 +740,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.OrderController",
+    "Method": "PaymentCallback",
+    "RelativePath": "api/orders/callback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "response",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "BEWebPNJ.Controllers.OrderController",
@@ -764,6 +817,32 @@
   },
   {
     "ContainingType": "BEWebPNJ.Controllers.OrderController",
+    "Method": "CreatePaymentUrl",
+    "RelativePath": "api/orders/payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "BEWebPNJ.Models.Order",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.OrderController",
+    "Method": "PaymentCallback",
+    "RelativePath": "api/orders/payment/callback",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.OrderController",
     "Method": "UpdateOrderStatus",
     "RelativePath": "api/orders/update-status/{orderId}",
     "HttpMethod": "PATCH",
@@ -777,6 +856,100 @@
       },
       {
         "Name": "newStatus",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.OrderController",
+    "Method": "GetOrdersByUserId",
+    "RelativePath": "api/orders/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BEWebPNJ.Models.Order, BEWebPNJ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.PaypalController",
+    "Method": "CreatePayment",
+    "RelativePath": "api/paypal/create-payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "BEWebPNJ.Models.Order",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.PaypalController",
+    "Method": "PaymentCancel",
+    "RelativePath": "api/paypal/payment-cancel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.PaypalController",
+    "Method": "PaymentSuccess",
+    "RelativePath": "api/paypal/payment-success",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PayerID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.ProductController",
+    "Method": "AddCommentToProduct",
+    "RelativePath": "api/products/{productId}/add-comment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "commentId",
         "Type": "System.String",
         "IsRequired": true
       }
@@ -1161,6 +1334,121 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BEWebPNJ.Controllers.FavouriteProductController",
+    "Method": "GetFavouriteProducts",
+    "RelativePath": "api/users/{userId}/favourites",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.FavouriteProductController",
+    "Method": "AddFavouriteProduct",
+    "RelativePath": "api/users/{userId}/favourites/add/{productId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.FavouriteProductController",
+    "Method": "RemoveFavouriteProduct",
+    "RelativePath": "api/users/{userId}/favourites/remove/{productId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.ListPaymentUserController",
+    "Method": "GetListPaymentUser",
+    "RelativePath": "api/users/{userId}/listOrderId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BEWebPNJ.Controllers.ListPaymentUserController",
+    "Method": "AddOrderId",
+    "RelativePath": "api/users/{userId}/listOrderId/add/{orderId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "orderId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BEWebPNJ.Controllers.PurchasedController",
     "Method": "GetPurchasedProducts",
     "RelativePath": "api/users/{userId}/purchased",
@@ -1308,8 +1596,8 @@
   },
   {
     "ContainingType": "BEWebPNJ.Controllers.ShoppingCartController",
-    "Method": "DeleteAddress",
-    "RelativePath": "api/users/{userId}/shopping-cart/remove/{shoppingCartId}",
+    "Method": "DeleteShoppingCart",
+    "RelativePath": "api/users/{userId}/shopping-cart/remove/{shoppingCartId}/{size}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1322,6 +1610,11 @@
       {
         "Name": "shoppingCartId",
         "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
