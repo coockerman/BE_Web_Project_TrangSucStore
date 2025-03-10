@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BEWebPNJ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd29e8fdd72f6e6600ead7024f8b0a26a6640115")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+faafe02a1651ea330800a8b9de76f0d8a8bfea5d")]
+>>>>>>> c7c736ec64328c6aad0766b970885d8d159fda39
 [assembly: System.Reflection.AssemblyProductAttribute("BEWebPNJ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BEWebPNJ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

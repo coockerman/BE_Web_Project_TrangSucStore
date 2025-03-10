@@ -9,11 +9,19 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BEWebPNJ
 build_property.RootNamespace = BEWebPNJ
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\thanhdat\Desktop\BE_WebPNJ\BEWebPNJ\
+=======
+build_property.ProjectDir = C:\Users\HP\Desktop\BE_PNJ\BEWebPNJ\
+>>>>>>> c7c736ec64328c6aad0766b970885d8d159fda39
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Users\thanhdat\Desktop\BE_WebPNJ\BEWebPNJ
+=======
+build_property.MSBuildProjectDirectory = C:\Users\HP\Desktop\BE_PNJ\BEWebPNJ
+>>>>>>> c7c736ec64328c6aad0766b970885d8d159fda39
 build_property._RazorSourceGeneratorDebug = 

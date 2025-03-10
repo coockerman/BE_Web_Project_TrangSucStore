@@ -32,7 +32,9 @@ namespace BEWebPNJ.Services
 
                 return snapshot.Documents
                     .Where(doc => doc.Exists)
-                    .Sum(doc => doc.ConvertTo<Order>().totalAmount);
+                    .Select(doc => doc.ConvertTo<Order>())
+                    .Where(order => order.status != "process")
+                    .Sum(order => order.totalAmount);
             }
             catch (Exception ex)
             {
@@ -62,8 +64,10 @@ namespace BEWebPNJ.Services
                     .GetSnapshotAsync();
 
                 return snapshot.Documents
-                    .Where(doc => doc.Exists)
-                    .Sum(doc => doc.ConvertTo<Order>().totalAmount);
+                   .Where(doc => doc.Exists)
+                   .Select(doc => doc.ConvertTo<Order>())
+                   .Where(order => order.status != "process")
+                   .Sum(order => order.totalAmount);
             }
             catch (Exception ex)
             {
@@ -96,8 +100,10 @@ namespace BEWebPNJ.Services
 
                 // Tính tổng doanh thu từ các đơn hàng trong quý
                 return snapshot.Documents
-                    .Where(doc => doc.Exists)
-                    .Sum(doc => doc.ConvertTo<Order>().totalAmount);
+                   .Where(doc => doc.Exists)
+                   .Select(doc => doc.ConvertTo<Order>())
+                   .Where(order => order.status != "process")
+                   .Sum(order => order.totalAmount);
             }
             catch (Exception ex)
             {
@@ -129,8 +135,10 @@ namespace BEWebPNJ.Services
 
                 // Tính tổng doanh thu từ các đơn hàng trong năm
                 return snapshot.Documents
-                    .Where(doc => doc.Exists)
-                    .Sum(doc => doc.ConvertTo<Order>().totalAmount);
+                   .Where(doc => doc.Exists)
+                   .Select(doc => doc.ConvertTo<Order>())
+                   .Where(order => order.status != "process")
+                   .Sum(order => order.totalAmount);
             }
             catch (Exception ex)
             {
