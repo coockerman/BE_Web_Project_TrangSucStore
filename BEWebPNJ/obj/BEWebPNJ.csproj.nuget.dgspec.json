@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thanhdat\\Desktop\\BE_WebPNJ\\BEWebPNJ\\BEWebPNJ.csproj": {}
+    "C:\\Users\\HP\\Desktop\\BE_PNJ\\BEWebPNJ\\BEWebPNJ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thanhdat\\Desktop\\BE_WebPNJ\\BEWebPNJ\\BEWebPNJ.csproj": {
+    "C:\\Users\\HP\\Desktop\\BE_PNJ\\BEWebPNJ\\BEWebPNJ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thanhdat\\Desktop\\BE_WebPNJ\\BEWebPNJ\\BEWebPNJ.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\BE_PNJ\\BEWebPNJ\\BEWebPNJ.csproj",
         "projectName": "BEWebPNJ",
-        "projectPath": "C:\\Users\\thanhdat\\Desktop\\BE_WebPNJ\\BEWebPNJ\\BEWebPNJ.csproj",
-        "packagesPath": "C:\\Users\\thanhdat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thanhdat\\Desktop\\BE_WebPNJ\\BEWebPNJ\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\BE_PNJ\\BEWebPNJ\\BEWebPNJ.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\BE_PNJ\\BEWebPNJ\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\thanhdat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +23,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,9 +59,21 @@
               "target": "Package",
               "version": "[3.9.0, )"
             },
+            "PayPal": {
+              "target": "Package",
+              "version": "[1.9.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[112.1.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[9.0.2, )"
             }
           },
           "imports": [
@@ -81,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
